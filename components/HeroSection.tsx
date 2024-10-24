@@ -70,7 +70,7 @@ function HeroSection() {
                 </button>
               </span>
 
-              <Image fill src="/1.webp" alt="" className='!relative !w-[540px] !h-[360px] !mt-48 !mx-auto' />
+              <Image fill src="/1.webp" alt="" className='!relative !w-[540px] !h-[360px] !mt-46 !mx-auto' />
             </div>
           </div>
         </div>
