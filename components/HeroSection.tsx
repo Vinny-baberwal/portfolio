@@ -3,7 +3,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div className="-mt-[70px]  bg-[url(/homebg.jpg)] bg-center bg-cover lg:pt-40 lg:pb-16 relative ">
+    <div className="-mt-[70px]  bg-[url(/homebg.webp)] bg-center bg-cover lg:pt-40 lg:pb-16 relative ">
       <div className="absolute inset-0 bg-black/75  " />
 
       <section className="relative  bg-contain   bg-right bg-no-repeat  text-white">
@@ -70,7 +70,7 @@ function HeroSection() {
                 </button>
               </span>
 
-              <Image fill src="/1.webp" alt="" className='!relative !mt-48' />
+              <Image fill src="/1.webp" alt="" className='!relative !w-[540px] !h-[360px] !mt-48 !mx-auto' />
             </div>
           </div>
         </div>
