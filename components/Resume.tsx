@@ -12,11 +12,12 @@ export default function Resume() {
                 <h5 className='text-4xl font-bold text-center my-4 text-[#EFAE02] tracking-widest'>Vinit Saini</h5>
                 <p className='text-center font-medium' >⚛Front End Developer / Back End Developer / Web Designer⚛</p>
                 <div className='flex gap-4 text-center items-center justify-center pt-8'>
+                <a href="/VINIT-SAINI.jpg" download="vinitsaini.jpg" type='image' >
                     <button className='text-yellow-500 border-yellow-500 border px-4 text-xl bg-yellow-500/20 flex gap-2 rounded-full p-2 pb-2'>
                         <Image fill src="/download.webp" alt="" className='!relative !w-8 !h-8' />
-                        Resume</button>
-                    <button className='text-black font-medium border-yellow-500 border lg:px-6 text-xl bg-yellow-500 flex gap-2 rounded-full p-1 pb-2'>
-                        Discuss Projects</button>
+                        Resume</button></a>
+                    {/* <button className='text-black font-medium border-yellow-500 border lg:px-6 text-xl bg-yellow-500 flex gap-2 rounded-full p-1 pb-2'>
+                        Discuss Projects</button> */}
                 </div>
 
             </div>

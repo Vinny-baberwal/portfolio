@@ -3,25 +3,26 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div className="-mt-[70px]  bg-[url(/homebg.webp)] bg-center bg-cover lg:pt-40 lg:pb-16 relative ">
+    <div className="-mt-[70px]  bg-[url(/homebg.webp)] bg-center bg-cover lg:pt-36 lg:pb-16 relative ">
       <div className="absolute inset-0 bg-black/75  " />
 
       <section className="relative  bg-contain   bg-right bg-no-repeat  text-white">
         <div className="relative mx-auto max-w-screen-xl pt-20 lg:py-32 sm:px-6 lg:flex lg:h-screen lg:items-center justify-center lg:px-8">
 
           <div className=''>
-            <h1 className='text-5xl font-bold text-center   '> <p className='inline' >
-              <Image fill src="/bijli.webp" alt="" className='!relative !w-6 !h-6 !ml-6 !mt-6 vibration ' />
-              <Image fill src="/hand.webp" alt="" className='!relative !w-14 !h-14 !inline zooming ' />
+            <h1 className='text-3xl lg:text-5xl font-bold text-center mt-8  '> <p className='inline' > 
+              <Image fill src="/hand.webp" alt="" className='!relative !w-10 !h-10 lg:!w-14 lg:!h-14 !inline zooming ' />
             </p> Hello I&apos;m <span className='text-yellow-500' > Vinit Saini </span></h1>
             <h2 className='text-3xl text-center font-bold py-3'>  Full Stack <span className='text-yellow-500' >Developer</span> | Web Designer</h2>
             <h3 className='text-2xl text-center' >With <span className=' border px-3 mx-2 pb-1  font-bold text-yellow-500 bg-[#242424]/65 rounded-full' >1.8+years</span>Experience</h3>
             <div className='flex gap-4 text-center items-center justify-center pt-8'>
+            <a href="/VINIT-SAINI.jpg" download="vinitsaini.jpg" type='image'  > 
               <button className='text-yellow-500 border-yellow-500 border px-4 text-xl bg-yellow-500/20 flex gap-2 rounded-full p-2 pb-2'>
-                <Image fill src="/download.webp" alt="" className='!relative !w-6 !h-6' />
-                Resume</button>
+              <Image fill src="/download.webp" alt="" className='!relative !w-6 !h-6' />
+                Resume</button></a>
+                <a href="https://wa.me/+918824531010">
               <button className='text-black font-medium border-yellow-500 border px-6 text-xl bg-yellow-500 flex gap-2 rounded-full p-2 pb-2'>
-                Hire Me</button>
+                Hire Me</button></a>
             </div>
             {/* ----------- */}
             <Image fill src="/phone.webp" alt="" className='!relative !block lg:!hidden !py-10' />
@@ -70,7 +71,7 @@ function HeroSection() {
                 </button>
               </span>
 
-              <Image fill src="/1.webp" alt="" className='!relative !w-[540px] !h-[360px] !mt-46 !mx-auto' />
+              <Image fill src="/1.webp" alt="" className='!relative !w-[590px] !h-[360px] mt-48 mx-auto' />
             </div>
           </div>
         </div>

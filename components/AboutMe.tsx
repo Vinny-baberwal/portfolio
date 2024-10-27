@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import React from 'react'
+import React from 'react';
 
 function AboutMe() {
+  
   return (
     <section className='bg-black' >
 
@@ -9,7 +10,7 @@ function AboutMe() {
 
         <h1 className='text-2xl lg:text-5xl font-bold text-center relative text-[#EFAE02]'><span className='outline-border font-bold absolute text-3xl lg:text-6xl'  >ABOUT ME</span>ABOUT ME</h1>
 
-        <div className='p-2 lg:p-5 lg:flex text-white justify-between py-16' >
+        <div  className='p-2 lg:p-5 lg:flex text-white justify-between py-16' >
           <div className=''>
             <div className='p-4 flex items-center '>
               <Image fill src="/me.webp" alt="" className='!relative !w-20 !h-20 !rounded-full !border !p-1 !border-yellow-400' />
@@ -63,7 +64,7 @@ function AboutMe() {
         </div>
         {/* -- */}
 
-        <div className='p-2 lg:p-4'>
+        <div  className='p-2 lg:p-4'>
           <p className='p-4 lg:p-10 bg-[#191919] text-zinc-200 rounded-3xl text-justify lg:leading-8 lg:text-lg '>
             I&apos; a highly driven <b className='text-[#EFAE02]/80' > Full Stack Developer</b> with over <b>1.8 years</b> of experience in both frontend and backend technologies, dedicated to creating seamless and efficient web solutions. On the frontend, I excel in building responsive, high-performing applications using <b>React.js,<b className='text-[#EFAE02]/80' >Next.js</b>, and Redux.</b> I have a strong eye for design and user experience, leveraging <b className='text-[#EFAE02]/80' >Tailwind CSS</b> and <b>Bootstrap</b> to craft visually appealing, intuitive, and responsive interfaces that adapt seamlessly to all devices.
 
@@ -72,9 +73,10 @@ function AboutMe() {
             I&apos;m passionate about staying updated with the latest trends and technologies in the web development ecosystem, continuously improving my skill set to deliver <b className='text-[#EFAE02]/80' >cutting-edge</b> solutions. Whether it&apos;s building from scratch or enhancing existing applications, I strive to create projects that are not only functional but also engaging and future-ready.
           </p>
         </div>
+        <a href="https://wa.me/+918824531010">
         <button className=' mt-3 text-yellow-500 mx-auto border-yellow-500 border px-4 text-xl bg-yellow-500/20 flex gap-2 rounded-full p-2 pb-2'>
           <Image fill src="/download.webp" alt="" className='!relative !w-8 !h-8' />
-          Contact Me</button>
+          Contact Me</button></a>
 
       </div>
     </section>

@@ -4,7 +4,7 @@
  
 .vibration {
   
-  animation: vibrate 0.3s infinite;
+  animation: vibrate 0.8s infinite;
 }
 
 @keyframes vibrate {

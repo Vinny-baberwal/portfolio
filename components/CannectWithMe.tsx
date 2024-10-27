@@ -35,15 +35,15 @@ export default function CannectWithMe() {
                     <Image fill src="/skype.webp" alt="" className='!relative !w-6 !h-6 lg:!w-12 lg:!h-12' />
                     Skype
                 </p>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vinitsaini28092@gmail.com&su=Subject&body=Message%20body" target="_blank" className='p-2 py-3 lg:mx-52  lg:p-2 bg-white rounded-full text-[#33a854] mt-6 font-bold lg:text-3xl flex lg:gap-4 items-center justify-center col-span-3 '>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vinitsaini28092@gmail.com&su=Subject&body=Message%20body" target="_blank" className='p-2 py-3 lg:mx-52  lg:p-2 bg-white rounded-full text-[#33a854] mt-6 font-bold text-xl lg:text-3xl flex lg:gap-4 items-center justify-center col-span-3 '>
                      
-                        <Image fill src="/gmail.webp" alt="" className='!relative !w-6 !h-6 lg:!w-12 lg:!h-12' />
+                        <Image fill src="/gmail.webp" alt="" className='!relative !w-8 !h-8 lg:!w-12 lg:!h-12' />
                         vinitsaini28092@gmail.com
                     
                 </a>
             </div>
           
-                <Image fill src="/man2.png" alt="" className='!relative lg:!w-96 lg:!h-80 !mx-auto' />
+                <Image fill src="/man2.png" alt="" className='!relative !w-60 !h-52 lg:!w-96 lg:!h-80 !mx-auto' />
           
 
         </section>

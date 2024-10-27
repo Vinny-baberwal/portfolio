@@ -1,12 +1,19 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // AOS styles
 
 function Experience() {
+    useEffect(() => {
+        AOS.init();
+      }, []);
+
     return (
         <section className='max-w-screen-xl mx-auto text-white lg:px-20  space-y-8  '   >
             <h1 className='text-5xl font-bold text-center relative text-[#EFAE02] mb-16'><span className='outline-border font-bold absolute text-6xl'  >Experince</span>Experience</h1>
 
-            <div  className=' py-4 p-2 lg:p-4 bg-white/70  rounded-3xl bg-gradient-to-r from-white via-yellow-200/40  to-white '>
+            <div data-aos="flip-left"  className=' py-4 p-2 lg:p-4 bg-white/70  rounded-3xl bg-gradient-to-r from-white via-yellow-200/40  to-white '>
                 <div className='flex justify-between lg:gap-20'>
                     <div className='bg-black border border-[#EFAE02] max-sm:text-sm lg:text-xl  text-[#EFAE02] font-bold flex items-center  justify-center lg:gap-3 rounded-full pr-4 '>
                         <Image fill src="/arinfo.webp" alt="" className=' !relative !w-10 !h-10 lg:!w-20 lg:!h-20 bg-black rounded-full' />
@@ -49,7 +56,7 @@ function Experience() {
             </div>
             {/* ...... */}
 
-            <div className=' py-4 p-2 lg:p-4 bg-white rounded-3xl '>
+            <div data-aos="flip-right" className=' py-4 p-2 lg:p-4 bg-white rounded-3xl '>
                 <div className='flex justify-between lg:gap-20'>
                     <div className='bg-black border border-[#EFAE02] max-sm:text-sm lg:text-xl  text-[#EFAE02] font-bold flex items-center  justify-center lg:gap-3 rounded-full max-sm:!w-52 pr-2  lg:pr-4 '>
                         <Image fill src="/freelance-work.webp" alt="" className=' !relative !w-10 !h-10 lg:!w-20 lg:!h-20 bg-white rounded-full' />

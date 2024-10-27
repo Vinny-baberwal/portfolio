@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css"; 
+import Footer from "@/components/Footer";
 
 export const dynamic = 'force-dynamic'
 export default async function RootLayout({
@@ -25,6 +26,7 @@ export default async function RootLayout({
       <body >
         <Header/>
         {children} 
+        <Footer/>
       </body>
     </html>
   );
